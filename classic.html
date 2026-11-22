@@ -1270,6 +1270,12 @@ function toggleMobileTheme(){
   if(btn)btn.textContent=currentMode==='dark'?'☀':'☾';
 }
 </script>
-<script>if(new URLSearchParams(location.search).has('classic'))document.body.classList.add('legacy-mode');</script>
+<script>
+document.addEventListener('click', event => {
+  if (!event.target.closest('#return-modern, #return-modern-mobile')) return;
+  window.location.assign(new URL('index.html', window.location.href));
+});
+if (new URLSearchParams(location.search).has('classic')) document.body.classList.add('legacy-mode');
+</script>
 </body>
 </html>
