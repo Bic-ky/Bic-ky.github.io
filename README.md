@@ -14,6 +14,6 @@ Open `index.html` in a browser.
 - Technical toolkit
 - Education and certifications
 - Contact
-- Classic retro-inspired profile view (`classic.html`)
+- Classic desktop OS view adapted from the portfolio template (`classic.html`)
 
 The layout is based on the provided portfolio template and uses details from Bicky’s resume.

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://umesh0518.github.io/portfolio-bic/sitemap.xml
